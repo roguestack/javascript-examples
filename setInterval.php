@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc in Java Script</title>
+</head>
+<body>
+</body>
+<script type="text/javascript">
+    setInterval(int,3000);
+
+    function int(){
+        document.write("Hello" + "<br>");
+        setTimeout(() => {
+            document.write("Time out" + "<br>");
+        }, 1000);
+    }
+</script>
+</html>
